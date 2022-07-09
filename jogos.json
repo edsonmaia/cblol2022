@@ -1,0 +1,236 @@
+[
+    {
+        "semana": 1,
+        "rodada": 1,
+        "dia": "SÁB",
+        "data": "11/06/2022",
+        "jogos": [
+            "PNG x RED",
+            "ITZ x RNS",
+            "LBR x NMG",
+            "FUR x KBM",
+            "FLA x LLL"
+        ]
+    },
+    {
+        "semana": 1,
+        "rodada": 2,
+        "dia": "DOM",
+        "data": "12/06/2022",
+        "jogos": [
+            "FUR x LBR",
+            "KBM x FLA",
+            "NMG x ITZ",
+            "LLL x PNG",
+            "RNS x RED"
+        ]
+    },
+    {
+        "semana": 2,
+        "rodada": 3,
+        "dia": "SÁB",
+        "data": "18/06/2022",
+        "jogos": [
+            "LLL x KBM",
+            "ITZ x FUR",
+            "LBR x FLA",
+            "RED x NMG",
+            "PNG x RNS"
+        ]
+    },
+    {
+        "semana": 2,
+        "rodada": 4,
+        "dia": "DOM",
+        "data": "19/06/2022",
+        "jogos": [
+            "LLL x LBR",
+            "KBM x PNG",
+            "FLA x ITZ",
+            "FUR x RED",
+            "NMG x RNS"
+        ]
+    },
+    {
+        "semana": 3,
+        "rodada": 5,
+        "dia": "SÁB",
+        "data": "25/06/2022",
+        "jogos": [
+            "ITZ x LLL",
+            "PNG x NMG",
+            "RED x FLA",
+            "LBR x KBM",
+            "RNS x FUR"
+        ]
+    },
+    {
+        "semana": 3,
+        "rodada": 6,
+        "dia": "DOM",
+        "data": "26/06/2022",
+        "jogos": [
+            "LBR x PNG",
+            "LLL x RED",
+            "FUR x NMG",
+            "FLA x RNS",
+            "KBM x ITZ"
+        ]
+    },
+    {
+        "semana": 4,
+        "rodada": 7,
+        "dia": "SÁB",
+        "data": "02/07/2022",
+        "jogos": [
+            "NMG x FLA",
+            "RNS x LLL",
+            "RED x KBM",
+            "PNG x FUR",
+            "ITZ x LBR"
+        ]
+    },
+    {
+        "semana": 4,
+        "rodada": 8,
+        "dia": "DOM",
+        "data": "03/07/2022",
+        "jogos": [
+            "KBM x RNS",
+            "LBR x RED",
+            "ITZ x PNG",
+            "LLL x NMG",
+            "FLA x FUR"
+        ]
+    },
+    {
+        "semana": 5,
+        "rodada": 9,
+        "dia": "SÁB",
+        "data": "09/07/2022",
+        "jogos": [
+            "RED x ITZ",
+            "FUR x LLL",
+            "RNS x LBR",
+            "PNG x FLA",
+            "NMG x KBM"
+        ]
+    },
+    {
+        "semana": 5,
+        "rodada": 10,
+        "dia": "DOM",
+        "data": "10/07/2022",
+        "jogos": [
+            "LLL x FLA",
+            "NMG x LBR",
+            "KBM x FUR",
+            "RNS x ITZ",
+            "RED x PNG"
+        ]
+    },
+    {
+        "semana": 6,
+        "rodada": 11,
+        "dia": "SÁB",
+        "data": "16/07/2022",
+        "jogos": [
+            "RED x RNS",
+            "PNG x LLL",
+            "FLA x KBM",
+            "LBR x FUR",
+            "ITZ x NMG"
+        ]
+    },
+    {
+        "semana": 6,
+        "rodada": 12,
+        "dia": "DOM",
+        "data": "17/07/2022",
+        "jogos": [
+            "RNS x PNG",
+            "NMG x RED",
+            "FUR x ITZ",
+            "KBM x LLL",
+            "FLA x LBR"
+        ]
+    },
+    {
+        "semana": 7,
+        "rodada": 13,
+        "dia": "SÁB",
+        "data": "23/07/2022",
+        "jogos": [
+            "RED x FUR",
+            "PNG x KBM",
+            "RNS x NMG",
+            "ITZ x FLA",
+            "LBR x LLL"
+        ]
+    },
+    {
+        "semana": 7,
+        "rodada": 14,
+        "dia": "DOM",
+        "data": "24/07/2022",
+        "jogos": [
+            "NMG x PNG",
+            "FUR x RNS",
+            "LLL x ITZ",
+            "KBM x LBR",
+            "FLA x RED"
+        ]
+    },
+    {
+        "semana": 8,
+        "rodada": 15,
+        "dia": "SÁB",
+        "data": "30/07/2022",
+        "jogos": [
+            "ITZ x KBM",
+            "RNS x FLA",
+            "PNG x LBR",
+            "RED x LLL",
+            "NMG x FUR"
+        ]
+    },
+    {
+        "semana": 8,
+        "rodada": 16,
+        "dia": "DOM",
+        "data": "31/07/2022",
+        "jogos": [
+            "LBR x ITZ",
+            "FLA x NMG",
+            "LLL x RNS",
+            "FUR x PNG",
+            "KBM x RED"
+        ]
+    },
+    {
+        "semana": 9,
+        "rodada": 17,
+        "dia": "SÁB",
+        "data": "06/08/2022",
+        "jogos": [
+            "FUR x FLA",
+            "RED x LBR",
+            "RNS x KBM",
+            "NMG x LLL",
+            "PNG x ITZ"
+        ]
+    },
+    {
+        "semana": 9,
+        "rodada": 18,
+        "dia": "DOM",
+        "data": "07/08/2022",
+        "jogos": [
+            "KBM x NMG",
+            "FLA x PNG",
+            "ITZ x RED",
+            "LBR x RNS",
+            "LLL x FUR"
+        ]
+    }
+]

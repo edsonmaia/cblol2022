@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBLOL 2022-2</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <main>
+
+        <section class="secoes secaoTimes">
+
+            <h2>Times 2022-2</h2>
+
+            <table class="tabelaTimes">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Sigla</th>
+                        <th>Time</th>
+                        <th>
+                            <img src="images/icones/Top_icon.webp" alt="Topo" />
+                        </th>
+                        <th>
+                            <img src="images/icones/Jungle_icon.webp" alt="Selva" />
+                        </th>
+                        <th>
+                            <img src="images/icones/Middle_icon.webp" alt="Meio" />
+                        </th>
+                        <th>
+                            <img src="images/icones/Bottom_icon.webp" alt="Atirador" />
+                        </th>
+                        <th>
+                            <img src="images/icones/Support_icon.webp" alt="Suporte" />
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- dados obtidos por requisicao fetch then de json -->
+                </tbody>
+            </table>
+
+        </section>
+
+        <!-- SECAO CARDS -->
+        <section class="secoes buscar">
+            <div class="form-group">
+                <label for="selecionaTime">Escalação</label>
+                <select name="selecionaTime" class="selecionaTime" id="selecionaTime">
+                    <option value="0">Flamengo Los Grandes</option>
+                    <option value="1">FURIA</option>
+                    <option value="2">INTZ</option>
+                    <option value="3">KABUM!</option>
+                    <option value="4">Liberty</option>
+                    <option value="5">LOUD</option>
+                    <option value="6">MINERS</option>
+                    <option value="7">PAIN</option>
+                    <option value="8">Red Canids</option>
+                    <option value="9">RENSGA</option>
+                </select>
+                <button id="botaoVer">Ver</button>
+            </div>
+        </section>
+
+        <h2 id="nomeDoTime">Time</h2>
+        <section class="secoes secaoCards">
+            
+            <article class="card">
+                <div class="fundo">
+                    <div>
+                        <span><img src='./images/icones/Top_icon.webp' /></span>
+                        <span class="nomeJogador"></span>
+                    </div>
+                    <figure>
+                        <img class="fotoJogador fotoP" src='./images/jogadores/silhueta.png' alt='' />
+                    </figure>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="fundo">
+                    <div>
+                        <span><img src='./images/icones/Jungle_icon.webp' /></span>
+                        <span class="nomeJogador"></span>
+                    </div>
+                    <figure>
+                        <img class="fotoJogador fotoP" src='./images/jogadores/silhueta.png' alt='' />
+                    </figure>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="fundo">
+                    <div>
+                        <span><img src='./images/icones/Middle_icon.webp' /></span>
+                        <span class="nomeJogador"></span>
+                    </div>
+                    <figure>
+                        <img class="fotoJogador fotoP" src='./images/jogadores/silhueta.png' alt='' />
+                    </figure>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="fundo">
+                    <div>
+                        <span><img src='./images/icones/Bottom_icon.webp' /></span>
+                        <span class="nomeJogador"></span>
+                    </div>
+                    <figure>
+                        <img class="fotoJogador fotoP" src='./images/jogadores/silhueta.png' alt='' />
+                    </figure>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="fundo">
+                    <div>
+                        <span><img src='./images/icones/Support_icon.webp' /></span>
+                        <span class="nomeJogador"></span>
+                    </div>
+                    <figure>
+                        <img class="fotoJogador fotoP" src='./images/jogadores/silhueta.png' alt='' />
+                    </figure>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- SECAO BUSCAR -->
+        <h2>Pesquisar jogos</h2>
+        <section class="secoes buscar">
+            <div class="form-group">
+                <input type="date" name="inputData" id="inputData" class="inputData" placeholder="00/00/0000"/>
+                <button id="botaoBuscar">Buscar</button>
+            </div>
+        </section>
+
+        <!-- SECAO JOGO -->
+        <section class="secoes secaoJogo">
+            <h2>Jogos do dia</h2>
+        </section>
+
+        <!-- SECAO JOGOS -->
+        <section class="secoes secaoJogos">
+            <h2>Jogos</h2>
+        </section>
+
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

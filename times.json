@@ -1,0 +1,152 @@
+[
+	{
+		"id": 1,
+		"sigla": "FLA",
+		"time": "Flamengo",
+		"nome_completo": "Flamengo Los Grandes",
+		"icone": "fla.png",
+		"escalacao": {
+			"topo": "Tay",
+			"selva": "Geum go",
+			"meio": "Tutsz",
+			"atirador": "Flare",
+			"suporte": "Kuri"
+		},
+		"jogadores": ["tay", "geum-go", "tutsz", "flare", "kuri"]
+	},
+	{
+		"id": 2,
+		"sigla": "FUR",
+		"time": "FURIA",
+		"nome_completo": "FURIA Esports",
+		"icone": "fur.png",
+		"escalacao": {
+			"topo": "FNB",
+			"selva": "Goot",
+			"meio": "Envy",
+			"atirador": "Netuno",
+			"suporte": "Redbert"
+		},
+		"jogadores": ["fnb", "goot", "envy", "netuno", "redbert"]
+	},
+	{
+		"id": 3,
+		"sigla": "ITZ",
+		"time": "INTZ",
+		"nome_completo": "INTZ",
+		"icone": "itz.png",
+		"escalacao": {
+			"topo": "Hidan",
+			"selva": "Yampi",
+			"meio": "NOsFerus",
+			"atirador": "micaO",
+			"suporte": "Jockster"
+		},
+		"jogadores": ["hidan", "yampi", "nosferus", "micao", "jockster"]
+	},
+	{
+		"id": 4,
+		"sigla": "KBM",
+		"time": "KaBuM!",
+		"nome_completo": "KaBuM! Esports",
+		"icone": "kbm.png",
+		"escalacao": {
+			"topo": "Parang",
+			"selva": "Wiz",
+			"meio": "Hauz",
+			"atirador": "Duds The Boy",
+			"suporte": "Scuro"
+		},
+		"jogadores": ["parang", "wiz", "hauz", "duds-the-boy", "scuro"]
+	},
+	{
+		"id": 5,
+		"sigla": "LBR",
+		"time": "Liberty",
+		"nome_completo": "Liberty",
+		"icone": "lbr.png",
+		"escalacao": {
+			"topo": "KiaRi",
+			"selva": "Disamis",
+			"meio": "Krastyel",
+			"atirador": "Matsukaze",
+			"suporte": "Cavalo"
+		},
+		"jogadores": ["kiari", "disamis", "krastyel", "matsukaze", "cavalo"]
+	},
+	{
+		"id": 6,
+		"sigla": "LLL",
+		"time": "LOUD",
+		"nome_completo": "LOUD",
+		"icone": "lll.png",
+		"escalacao": {
+			"topo": "Robo",
+			"selva": "Croc",
+			"meio": "tinowns",
+			"atirador": "Brance",
+			"suporte": "ceos"
+		},
+		"jogadores": ["robo", "croc", "tinowns", "brance", "ceos"]
+	},
+	{
+		"id": 7,
+		"sigla": "NMG",
+		"time": "Miners",
+		"nome_completo": "Miners",
+		"icone": "nmg.png",
+		"escalacao": {
+			"topo": "DoRun",
+			"selva": "Hugato",
+			"meio": "Anyyy",
+			"atirador": "Celo",
+			"suporte": "Sive"
+		},
+		"jogadores": ["dorun", "hugato", "anyyy", "celo", "sive"]
+	},
+	{
+		"id": 8,
+		"sigla": "PNG",
+		"time": "paiN Gaming",
+		"nome_completo": "paiN Gaming",
+		"icone": "png.png",
+		"escalacao": {
+			"topo": "Wizer",
+			"selva": "CarioK",
+			"meio": "dyNquedo",
+			"atirador": "Trigo",
+			"suporte": "Damage"
+		},
+		"jogadores": ["wizer", "cariok", "dynquedo", "trigo", "damage"]
+	},
+	{
+		"id": 9,
+		"sigla": "RED",
+		"time": "RED Kalunga",
+		"nome_completo": "RED Kalunga",
+		"icone": "red.png",
+		"escalacao": {
+			"topo": "Boal",
+			"selva": "Aegis",
+			"meio": "Grevthar",
+			"atirador": "TitaN",
+			"suporte": "JoJo"
+		},
+		"jogadores": ["boal", "aegis", "grevthar", "titan", "jojo"]
+	},
+	{
+		"id": 10,
+		"sigla": "RNS",
+		"time": "RENSGA",
+		"nome_completo": "Rensga Esports",
+		"icone": "rns.png",
+		"escalacao": {
+			"topo": "Zecas /Trap",
+			"selva": "Erasus /Minerva",
+			"meio": "Evrot /Goku",
+			"atirador": "NinjaKiwi",
+			"suporte": "Yuki /Mocha"
+		},
+		"jogadores": ["zecas", "erasus", "evrot", "ninja-kiwi", "yuki"]
+	}
+]

@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500&display=swap');
+
+:root {
+    --preto: #000000;
+    --chumbo: #111111;
+    --cinza: #333333;
+    --branco: #ffffff;
+    --azulado: #0A0E13;
+    --azul-cinza: #0F1519;
+    --azul-claro: #8FA3B0;
+    --ciano: #00C8C8;
+    --dourado: #C79E57;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: var(--azul-cinza);
+}
+
+main {
+    color: var(--branco);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.logoP {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 1rem;
+    margin-block: 0.15rem;
+}
+
+/* tabela dos times */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr th {
+    text-align: left;
+}
+
+table tr td, table tr th {
+    border-bottom: 1px solid #222;
+    color: #ececec;
+}
+
+tr:hover td, .logoP:hover  {
+    background-color: var(--azulado);
+    color: var(--dourado);
+    cursor: pointer;
+}
+
+/* aula 06 */
+.secoes {
+    margin-block: 1rem;
+}
+
+/* .secaoJogos {
+    border: 1px solid red;
+} */
+
+.secaoJogos div, .secaoJogo div {
+    /* border: 1px solid green; */
+    margin-block: 1rem 2rem;
+}
+
+.logoJogos {
+    width: 85px;
+    height: 85px;
+}
+
+.secaoJogos figure, .secaoJogo figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-block: 0.25rem;
+
+    border-bottom: 1px solid #222;
+}
+
+.primeiraLinha {
+    border-top: 1px solid #222;
+}
+
+.secaoJogos figure span,
+.secaoJogo figure span {
+    font-size: 2rem;
+    color: #333;
+}
+
+.secaoJogos figure:hover,
+.secaoJogos figure:hover span,
+.secaoJogo figure:hover,
+.secaoJogo figure:hover span  {
+    background-color: var(--azulado);
+    color: var(--dourado);
+    transition: ease-in-out .2s;
+    cursor: pointer;
+}
+
+/* buscar */
+.form-group {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group input, .form-group button, .form-group select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #222;
+    outline: none;
+}
+
+.form-group button {
+    background-color: var(--dourado);
+    color: #fff;
+    cursor: pointer;
+}
+
+.buscar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.datas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#datas {
+    padding: 5px;
+}
+
+/* formatacao dos cards parte 09 */
+.secaoCards {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.fotoP {
+    max-height: 180px;
+}
+
+.card {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.card span {
+    font-size: 1.5rem;
+}
+
+.fundo {
+    width: 100%;
+    height: 235px;
+    border: 1px solid var(--cinza);
+
+    background-size: 90%;
+    background-position: center; /* bottom left */
+    background-repeat: no-repeat;
+}
+
+.fundo figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo div {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding-block: 0.5rem;
+
+    font-weight: bold;
+    color: var(--branco);
+    background: var(--azulado);
+    opacity: 0.95;
+}
